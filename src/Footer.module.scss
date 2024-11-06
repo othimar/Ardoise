@@ -1,0 +1,20 @@
+.footer{
+    box-sizing:border-box;
+    position: sticky;
+    display: flex;
+    gap: 4px;
+    width:100%;
+    bottom: 0;
+    left:0;
+    background: var(--primary-color);
+    color: var(--text-color);
+    padding: 4px 8px;
+}
+
+.button{
+    color: var(--text-color);
+    background: var(--secondary-color);
+    border: solid 1px grey;
+    border-radius: 4px;
+    
+}

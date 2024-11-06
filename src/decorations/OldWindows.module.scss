@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-size;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    border: solid 2px #444;
+
+    textarea{
+	caret-color: black;
+    }
+}
+
+.appBar{
+    display: flex;
+    justify-content: end;
+    padding: 2px;
+    background-color: #11F;
+}
+
+.buttonClose{
+    width: 18px;
+    height: 18px;
+    color: #444;
+    background-color: #BBB;
+    border: solid 1px #666;
+    text-align: center;
+    font-weight: bold;
+}
+
+.code{
+    position: relative;
+    display: flex;
+    background-color: #EDEDED;
+    flex-direction: column;
+    padding: 4px;
+}

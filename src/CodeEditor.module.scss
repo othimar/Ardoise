@@ -1,0 +1,58 @@
+/**
+ *Author: Othimar
+ *Filename: CodeEditor.module.scss
+ *Description:
+ * 
+**/
+
+//The box containing the window decoration and the text editior
+.container{
+    display:flex;
+    flex-direction: column;
+    align-items: start;
+    background: #252525;
+    color:#C4C4C4;
+    border-radius: 6px;
+
+    box-shadow: 3px 3px 3px 3px rgba(20,20,20, 0.4);
+}
+
+
+.textCode{
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    left:0;
+    right:0;
+    bottom:0;
+    overflow: hidden;
+    white-space: nowrap;
+    font-family: monospace;
+    padding: 0;
+    margin: 0;
+    background: transparent;
+    border: none;
+    color: transparent;
+     border: solid 1px red;
+    &:focus{
+	outline: none;
+    }
+}
+
+.code{
+    display: inline-block;
+    white-space: pre;
+    font-family: monospace;
+    border: solid 1px blue;
+}
+
+/**This class contains the textarea for code the div containing line numbers
+ ** and the highlightedcode
+ **/
+
+.textEditor{
+    position: relative;
+    padding: 8px 16px;
+    display:flex;
+    flex-direction:  column;
+}

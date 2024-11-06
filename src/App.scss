@@ -1,0 +1,23 @@
+/**
+ *
+ *
+ **/
+
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --primary-color: #232323;
+    --secondary-color: #333;
+    --text-color: #D1D1AA;
+    font-family: Roboto;
+}
+
+:root[data-dark-mode=true]{
+    --primary-color: #EDF;
+    --secondary-color: #DBD;
+    --text-color: #232;
+    font-family: Roboto;
+}

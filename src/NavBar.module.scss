@@ -1,0 +1,44 @@
+/**
+ * Description: Styles for NavBar
+ **/
+
+
+.nav{
+    position: sticky;
+    top: 0;
+    left:0;
+    display:flex;
+    justify-content: space-between;
+    padding: 4px 16px;
+    background: var(--primary-color)
+}
+
+.logo{
+    display: inline-block;
+
+    background:#393333;
+    border-radius: 8px;
+    padding: 0px 2px;
+    
+    font-weight: bold;
+    font-size: 2em;
+    color: var(--text-color) ;
+}
+
+.logoName{
+    font-weight: bold;
+    color: var(--text-color);
+}
+
+.btnExport{
+    padding: 4px 16px;
+    color: white;
+    font-weight: bold;
+    background: hsl(222, 70%, 50%);
+    border: none;
+    border-radius: 4px;
+    :hover{
+	filter: brightness(1.1);
+	cursor: pointer;
+    }
+}
