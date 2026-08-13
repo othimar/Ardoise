@@ -9,6 +9,7 @@ function lang(name:string, id:string):Language{
 
 const languages: Language[] = [
   lang('Auto','auto'),
+  lang('Go', 'go'),
   lang('Rust', 'rust'),
   lang('JSX', 'jsx'),
   lang('Javascript', 'javascript'),
